@@ -25,3 +25,26 @@ python app.py
 
 ## Autor
 Kevin Yulan
+
+## Ejemplo de uso
+
+GET /usuarios
+
+Respuesta:
+[
+  {
+    "id": 1,
+    "nombre": "Usuario1"
+  },
+  {
+    "id": 2,
+    "nombre": "Usuario2"
+  }
+]
+
+POST /usuarios
+
+Body:
+{
+  "nombre": "NuevoUsuario"
+}
